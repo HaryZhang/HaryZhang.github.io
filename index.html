@@ -1,6 +1,216 @@
-<html>
-	<title>ceshi</title>
-	<body>
-		<p>ceshi</p>
-	</body>
+<!DOCTYPE HTML>
+<head>
+	<style type="text/css">html {height: 100%;margin: 0;} body {height: 100%;margin: 0;}</style>
+	<!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+	<!--<meta name="format-detection" content="telephone=no">-->
+	<!--<meta name="msapplication-tap-highlight" content="no">-->
+	<!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">-->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=750,user-scalable=no" name="viewport">
+<title>世界杯</title>
+<link href="./index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main_layer" id="main_layer">
+
+	<!-- 欢迎页模块 -->
+	<div class="welcome_layer">
+		<div class="brand"></div>
+		<div class="wel_main_wraper">
+			<div class="wel_main">
+				<div class="table-cell slogan"><i></i></div>
+				<div class="table-cell sofa_ball"><img src="./images/zq.gif" alt=""></div>
+				<div class="table-cell text"><i></i></div>
+			</div>
+		</div>
+		<div class="start"></div>
+	</div>
+	<!--哭脸-->
+	<div id="float-cry" style="display: none;position: absolute;margin: auto;left:0;right: 0;top:0;bottom: 0;width: 133px;height: 133px;z-index: 999">
+		<img src="images/bq.gif" style="width: 132px;height: 133px;" />
+	</div>
+	<!-- 主页 -->
+	<div class="world_cup_layer">
+		<!-- 向导页 -->
+		<div class="guide">
+			<div class="guide_img"></div>
+		</div>	
+			<!-- pixijs绘制页 -->
+			<div id="main_container"></div>
+			<!-- 菜单页 -->
+			<div class="category">
+				<div class="category_main">
+					<div class="save"></div>
+					<div class="arrow_box"><div class="arrow"></div></div>
+					<div class="category_container">
+						<div class="category_box">
+							<div class="category_item people">
+								<div class="category_guide">
+									<div class="guide_arrow"></div>
+								</div>
+								<ul class="category_people">
+									<li>
+										<div class="item_bg"></div>
+										<div class="li_line"></div>
+									</li>
+									<li>
+										<div class="item_bg"></div>
+										<div class="li_line"></div>
+									</li>
+								</ul>
+							</div>
+							<div class="category_item facingTo">
+								<ul class="man_facingTo">
+									<li class="active"><div class="item_bg"></div><div class="item_text">正面</div></li>
+									<li><div class="item_bg"></div><div class="item_text">左侧</div></li>
+									<li><div class="item_bg"></div><div class="item_text">右侧</div></li>
+									<li><div class="item_bg"></div><div class="item_text">背面</div></li>
+								</ul>
+								<ul class="woman_facingTo">
+									<li class="active"><div class="item_bg"></div><div class="item_text">正面</div></li>
+									<li><div class="item_bg"></div><div class="item_text">左侧</div></li>
+									<li><div class="item_bg"></div><div class="item_text">右侧</div></li>
+									<li><div class="item_bg"></div><div class="item_text">背面</div></li>
+								</ul>
+							</div>
+							<div class="category_item cloth">
+								<ul class="man_cloth">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+								<ul class="woman_cloth">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+							<div class="category_item face">
+								<ul class="man_face">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+								<ul class="woman_face">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+							<div class="category_item hair">
+								<ul class="man_hair">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+								<ul class="woman_hair">
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+							<div class="category_item room">
+								<ul>
+									<li class="active"><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+							<div class="category_item flag">
+								<ul>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+							<div class="category_item others">
+								<ul>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+									<li><div class="item_bg"></div><div class="item_text"></div></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category_bar">
+					<!-- 选择栏 -->
+				<div class="scroll_bg"></div>
+					<div class="scroll_bar">
+						<ul>
+							<li class="selected"><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+							<li><div class="icon"></div></li>
+						</ul>
+						<div class="black_arrow"></div>
+					</div>
+				</div>
+			</div>
+			<div class="result_img">
+				<div class="saved_guide"></div>
+			</div>
+			<div class="saved_img"></div>
+	</div>
+
+
+</div>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/pixi.min.js"></script>
+<script src="./js/tween.min.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/main.min.js"></script>
+<script>
+    var _mtac = {};
+    (function() {
+        var mta = document.createElement("script");
+        mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.2";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500617297");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+    })();
+</script>
+
+</body>
 </html>
