@@ -64,7 +64,7 @@ a {
   background:url(images/jc.gif) no-repeat;
   position:absolute;
   left:138px;
-  top:87px;
+  top:187px;
 }
 .category {
   position:absolute;
@@ -418,7 +418,7 @@ a {
   display:none;
 }
 .category_box .man_cloth,.category_box .woman_cloth {
-  width:680px;
+  width:1088px;
   height:100%;
   margin-left:40px;
   position:absolute;
@@ -468,6 +468,15 @@ a {
 .category_box .man_cloth li:nth-child(5) .item_bg {
   background-image:url(images/select/cloth/man-5.png);
 }
+.category_box .man_cloth li:nth-child(6) .item_bg {
+  background-image:url(images/select/cloth/man-6.png);
+}
+.category_box .man_cloth li:nth-child(7) .item_bg {
+  background-image:url(images/select/cloth/man-7.png);
+}
+.category_box .man_cloth li:nth-child(8) .item_bg {
+  background-image:url(images/select/cloth/man-8.png);
+}
 .category_box .woman_cloth {
   display:none;
 }
@@ -485,6 +494,15 @@ a {
 }
 .category_box .woman_cloth li:nth-child(5) .item_bg {
   background-image:url(images/select/cloth/woman-5.png);
+}
+.category_box .woman_cloth li:nth-child(6) .item_bg {
+  background-image:url(images/select/cloth/woman-6.png);
+}
+.category_box .woman_cloth li:nth-child(7) .item_bg {
+  background-image:url(images/select/cloth/woman-7.png);
+}
+.category_box .woman_cloth li:nth-child(8) .item_bg {
+  background-image:url(images/select/cloth/woman-8.png);
 }
 .category_box .face {
   display:none;

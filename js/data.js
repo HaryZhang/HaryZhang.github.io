@@ -179,11 +179,11 @@ var z = [
             bone1: {
                 position: {
                     x: 18,
-                    y: 130
+                    y: 140
                 },
                 pivot: {
                     x: 38,
-                    y: 18
+                    y: 15
                 },
                 rotation: 0
             },
@@ -209,11 +209,11 @@ var z = [
             bone1: {
                 position: {
                     x: -40,
-                    y: 134
+                    y: 136
                 },
                 pivot: {
-                    x: 68,
-                    y: 18
+                    x: 70,
+                    y: 16
                 },
                 rotation: 0
             },
@@ -627,65 +627,41 @@ var manCloths = [
     {
         clothUrl: T + "man/cloth1/body.png",
         clothPosition: {
-            x: 2,
-            y: 109
+            x: -2,
+            y: 102
         },
         part: [
-            [T + "man/cloth1/left_arm.png", T + "man/cloth1/left_hand.png"],
-            [T + "man/cloth1/right_arm.png", T + "man/cloth1/right_hand.png"],
-            [T + "man/cloth1/left_leg.png", T + "man/cloth1/left_foot.png"],
-            [T + "man/cloth1/right_leg.png", T + "man/cloth1/right_foot.png"]
+            [T + "man/cloth1/left_arm.png", 0],
+            [T + "man/cloth1/right_arm.png", 0],
+            [T + "man/cloth1/left_leg.png", 0],
+            [T + "man/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
-                    x: -2,
-                    y: -6
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -1
+                    x: 8,
+                    y: -3
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -8,
-                    y: -6
-                }
-            },
-            bone2: {
-                position: {
-                    x: -4,
+                    x: -3,
                     y: -2
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -6,
-                    y: -18
-                }
-            },
-            bone2: {
-                position: {
-                    x: 18,
-                    y: -14
+                    x: -12,
+                    y: -4
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -10,
-                    y: -3
-                }
-            },
-            bone2: {
-                position: {
-                    x: 20,
-                    y: -17
+                    x: -14,
+                    y: -4
                 }
             }
         }]
@@ -773,6 +749,132 @@ var manCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "man/cloth5/body.png",
+        clothPosition: {
+            x: -2,
+            y: 109  
+        },
+        part: [
+            [T + "man/cloth5/left_arm.png", 0],
+            [T + "man/cloth5/right_arm.png", 0],
+            [T + "man/cloth5/left_leg.png", 0],
+            [T + "man/cloth5/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 20,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -12,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: -4
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man/cloth6/body.png",
+        clothPosition: {
+            x: 0,
+            y: 110
+        },
+        part: [
+            [T + "man/cloth6/left_arm.png", 0],
+            [T + "man/cloth6/right_arm.png", 0],
+            [T + "man/cloth6/left_leg.png", 0],
+            [T + "man/cloth6/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 21,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -12,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: -4
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man/cloth7/body.png",
+        clothPosition: {
+            x: -2,
+            y: 104
+        },
+        part: [
+            [T + "man/cloth7/left_arm.png", 0],
+            [T + "man/cloth7/right_arm.png", 0],
+            [T + "man/cloth7/left_leg.png", 0],
+            [T + "man/cloth7/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 22,
+                    y: -3
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -12,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: -4
+                }
+            }
+        }]
     }
 ];
 
@@ -809,65 +911,41 @@ var manBackCloths = [
     {
         clothUrl: T + "man_back/cloth1/body.png",
         clothPosition: {
-            x: 2,
-            y: 87
+            x: -3,
+            y: 109
         },
         part: [
-            [T + "man_back/cloth1/left_arm.png", T + "man_back/cloth1/left_hand.png"],
-            [T + "man_back/cloth1/right_arm.png", T + "man_back/cloth1/right_hand.png"],
-            [T + "man_back/cloth1/left_leg.png", T + "man_back/cloth1/left_foot.png"],
-            [T + "man_back/cloth1/right_leg.png", T + "man_back/cloth1/right_foot.png"]
+            [T + "man_back/cloth1/left_arm.png", 0],
+            [T + "man_back/cloth1/right_arm.png", 0],
+            [T + "man_back/cloth1/left_leg.png", 0],
+            [T + "man_back/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
+                    x: 0,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
                     x: -3,
-                    y: -3
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -1
+                    y: -2
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -2,
-                    y: -1
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -3
+                    x: -14,
+                    y: -4
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -8,
-                    y: -18
-                }
-            },
-            bone2: {
-                position: {
-                    x: 18,
-                    y: -14
-                }
-            }
-        }, {
-            bone1: {
-                position: {
-                    x: -8,
-                    y: -3
-                }
-            },
-            bone2: {
-                position: {
-                    x: 22,
-                    y: -17
+                    x: -15,
+                    y: -4
                 }
             }
         }]
@@ -955,6 +1033,132 @@ var manBackCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "man_back/cloth5/body.png",
+        clothPosition: {
+            x: -3,
+            y: 109
+        },
+        part: [
+            [T + "man_back/cloth5/left_arm.png", 0],
+            [T + "man_back/cloth5/right_arm.png", 0],
+            [T + "man_back/cloth5/left_leg.png", 0],
+            [T + "man_back/cloth5/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 16,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -15,
+                    y: -4
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_back/cloth6/body.png",
+        clothPosition: {
+            x: 0,
+            y: 113
+        },
+        part: [
+            [T + "man_back/cloth6/left_arm.png", 0],
+            [T + "man_back/cloth6/right_arm.png", 0],
+            [T + "man_back/cloth6/left_leg.png", 0],
+            [T + "man_back/cloth6/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 18,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: 4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -15,
+                    y: 4
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_back/cloth7/body.png",
+        clothPosition: {
+            x: -3,
+            y: 111
+        },
+        part: [
+            [T + "man_back/cloth7/left_arm.png", 0],
+            [T + "man_back/cloth7/right_arm.png", 0],
+            [T + "man_back/cloth7/left_leg.png", 0],
+            [T + "man_back/cloth7/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 22,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -14,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -15,
+                    y: -4
+                }
+            }
+        }]
     }
 ];
 
@@ -991,65 +1195,41 @@ var manRightCloths = [
     {
         clothUrl: T + "man_right/cloth1/body.png",
         clothPosition: {
-            x: 5,
-            y: 84
+            x: 4,
+            y: 88
         },
         part: [
-            [T + "man_right/cloth1/left_arm.png", T + "man_right/cloth1/left_hand.png"],
-            [T + "man_right/cloth1/right_arm.png", T + "man_right/cloth1/right_hand.png"],
-            [T + "man_right/cloth1/left_leg.png", T + "man_right/cloth1/left_foot.png"],
-            [T + "man_right/cloth1/right_leg.png", T + "man_right/cloth1/right_foot.png"]
+            [T + "man_right/cloth1/left_arm.png", 0],
+            [T + "man_right/cloth1/right_arm.png", 0],
+            [T + "man_right/cloth1/left_leg.png", 0],
+            [T + "man_right/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
-                    x: 0,
+                    x: -15,
+                    y: -6
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -5,
                     y: 0
                 }
-            },
-            bone2: {
-                position: {
-                    x: 0,
-                    y: 3
-                }
             }
         }, {
             bone1: {
                 position: {
-                    x: -2,
-                    y: -7
-                }
-            },
-            bone2: {
-                position: {
-                    x: -4,
-                    y: -5
-                }
-            }
-        }, {
-            bone1: {
-                position: {
-                    x: -7,
-                    y: 0
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -5
-                }
-            }
-        }, {
-            bone1: {
-                position: {
-                    x: -2,
-                    y: -5
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
+                    x: -10,
                     y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 6
                 }
             }
         }]
@@ -1137,6 +1317,132 @@ var manRightCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "man_right/cloth5/body.png",
+        clothPosition: {
+            x: 4,
+            y: 88
+        },
+        part: [
+            [T + "man_right/cloth5/left_arm.png", 0],
+            [T + "man_right/cloth5/right_arm.png", 0],
+            [T + "man_right/cloth5/left_leg.png", 0],
+            [T + "man_right/cloth5/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: -7,
+                    y: -4
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -5,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -2,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -2,
+                    y: -2
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_right/cloth6/body.png",
+        clothPosition: {
+            x: 4,
+            y: 88
+        },
+        part: [
+            [T + "man_right/cloth6/left_arm.png", 0],
+            [T + "man_right/cloth6/right_arm.png", 0],
+            [T + "man_right/cloth6/left_leg.png", 0],
+            [T + "man_right/cloth6/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: -6,
+                    y: -6
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -2,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -10,
+                    y: 6
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 6
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_right/cloth7/body.png",
+        clothPosition: {
+            x: 4,
+            y: 88
+        },
+        part: [
+            [T + "man_right/cloth7/left_arm.png", 0],
+            [T + "man_right/cloth7/right_arm.png", 0],
+            [T + "man_right/cloth7/left_leg.png", 0],
+            [T + "man_right/cloth7/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: -8,
+                    y: -6
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -10,
+                    y: 6
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 0,
+                    y: 6
+                }
+            }
+        }]
     }
 ];
 
@@ -1173,65 +1479,41 @@ var manLeftCloths = [
     {
         clothUrl: T + "man_left/cloth1/body.png",
         clothPosition: {
-            x: 0,
-            y: 84
+            x: -2,
+            y: 88
         },
         part: [
-            [T + "man_left/cloth1/left_arm.png", T + "man_left/cloth1/left_hand.png"],
-            [T + "man_left/cloth1/right_arm.png", T + "man_left/cloth1/right_hand.png"],
-            [T + "man_left/cloth1/left_leg.png", T + "man_left/cloth1/left_foot.png"],
-            [T + "man_left/cloth1/right_leg.png", T + "man_left/cloth1/right_foot.png"]
+            [T + "man_left/cloth1/left_arm.png", 0],
+            [T + "man_left/cloth1/right_arm.png", 0],
+            [T + "man_left/cloth1/left_leg.png", 0],
+            [T + "man_left/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
-                    x: -2,
-                    y: -5
-                }
-            },
-            bone2: {
-                position: {
-                    x: 6,
-                    y: -8
+                    x: -7,
+                    y: 0
                 }
             }
         }, {
             bone1: {
                 position: {
                     x: -7,
-                    y: -2
-                }
-            },
-            bone2: {
-                position: {
-                    x: 12,
-                    y: -5
+                    y: -1
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -11,
-                    y: -10
-                }
-            },
-            bone2: {
-                position: {
-                    x: 26,
-                    y: -25
+                    x: -6,
+                    y: 10
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -5,
-                    y: 9
-                }
-            },
-            bone2: {
-                position: {
-                    x: 10,
-                    y: -15
+                    x: -8,
+                    y: 7
                 }
             }
         }]
@@ -1319,6 +1601,132 @@ var manLeftCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "man_left/cloth5/body.png",
+        clothPosition: {
+            x: -2,
+            y: 88
+        },
+        part: [
+            [T + "man_left/cloth5/left_arm.png", 0],
+            [T + "man_left/cloth5/right_arm.png", 0],
+            [T + "man_left/cloth5/left_leg.png", 0],
+            [T + "man_left/cloth5/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 0,
+                    y: -2
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 11,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 10
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -8,
+                    y: 7
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_left/cloth6/body.png",
+        clothPosition: {
+            x: -2,
+            y: 88
+        },
+        part: [
+            [T + "man_left/cloth6/left_arm.png", 0],
+            [T + "man_left/cloth6/right_arm.png", 0],
+            [T + "man_left/cloth6/left_leg.png", 0],
+            [T + "man_left/cloth6/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 2,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 10,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 10
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -4,
+                    y: 10
+                }
+            }
+        }]
+    },
+    {
+        clothUrl: T + "man_left/cloth7/body.png",
+        clothPosition: {
+            x: -2,
+            y: 88
+        },
+        part: [
+            [T + "man_left/cloth7/left_arm.png", 0],
+            [T + "man_left/cloth7/right_arm.png", 0],
+            [T + "man_left/cloth7/left_leg.png", 0],
+            [T + "man_left/cloth7/right_leg.png", 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 0,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 6,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -6,
+                    y: 10
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 0,
+                    y: 10
+                }
+            }
+        }]
     }
 ];
 
@@ -1942,52 +2350,34 @@ var womanCloths = [
     {
         clothUrl: T + "woman/cloth1/body.png",
         clothPosition: {
-            x: 6,
-            y: 105
+            x: -6,
+            y: 100
         },
         part: [
-            [T + "woman/cloth1/left_arm.png", T + "woman/cloth1/left_hand.png"],
-            [T + "woman/cloth1/right_arm.png", T + "woman/cloth1/right_hand.png"],
-            [T + "woman/cloth1/left_leg.png", T + "woman/cloth1/left_foot.png"],
-            [T + "woman/cloth1/right_leg.png", T + "woman/cloth1/right_foot.png"]
+            [T + "woman/cloth1/left_arm.png", 0],
+            [T + "woman/cloth1/right_arm.png", 0],
+            [T + "woman/cloth1/left_leg.png", 0],
+            [T + "woman/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
-                    x: 3,
-                    y: 1
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: 2
+                    x: 18,
+                    y: -6
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: 0,
-                    y: -2
-                }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -2
+                    x: -4,
+                    y: -5
                 }
             }
         }, {
             bone1: {
                 position: {
-                    x: -8,
+                    x: -14,
                     y: 0
-                }
-            },
-            bone2: {
-                position: {
-                    x: 20,
-                    y: -22
                 }
             }
         }, {
@@ -1995,12 +2385,6 @@ var womanCloths = [
                 position: {
                     x: -13,
                     y: 0
-                }
-            },
-            bone2: {
-                position: {
-                    x: 20,
-                    y: -22
                 }
             }
         }]
@@ -2073,6 +2457,60 @@ var womanCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "woman/cloth5/body.png",
+        clothPosition: {
+            x: -34,
+            y: 102
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman/cloth6/body.png",
+        clothPosition: {
+            x: -14,
+            y: 104
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman/cloth7/body.png",
+        clothPosition: {
+            x: -20,
+            y: 105
+        },
+        part: [
+            [T + "woman/cloth7/left_arm.png", 0],
+            [T + "woman/cloth7/right_arm.png", 0],
+            [0, 0],
+            [0, 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 20,
+                    y: 1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, 0, 0]
     }
 ];
 
@@ -2109,69 +2547,44 @@ var womanBackCloths = [
     {
         clothUrl: T + "woman_back/cloth1/body.png",
         clothPosition: {
-            x: 6,
+            x: -8,
             y: 100
         },
         part: [
-            [T + "woman_back/cloth1/left_arm.png", T + "woman_back/cloth1/left_hand.png"],
-            [T + "woman_back/cloth1/right_arm.png", T + "woman_back/cloth1/right_hand.png"],
-            [T + "woman_back/cloth1/left_leg.png", T + "woman_back/cloth1/left_foot.png"],
-            [T + "woman_back/cloth1/right_leg.png", T + "woman_back/cloth1/right_foot.png"]
+            [T + "woman_back/cloth1/left_arm.png", 0],
+            [T + "woman_back/cloth1/right_arm.png", 0],
+            [T + "woman_back/cloth1/left_leg.png", 0],
+            [T + "woman_back/cloth1/right_leg.png", 0]
         ],
-        bones: [
-            {
-                bone1: {
-                    position: {
-                        x: 4,
-                        y: -2
-                    }
-                },
-                bone2: {
-                    position: {
-                        x: 0,
-                        y: -2
-                    }
+        bones: [{
+            bone1: {
+                position: {
+                    x: 5,
+                    y: 0
                 }
-            }, {
-                bone1: {
-                    position: {
-                        x: 3,
-                        y: -2
-                    }
-                },
-                bone2: {
-                    position: {
-                        x: -2,
-                        y: -2
-                    }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 0,
+                    y: -2
                 }
-            }, {
-                bone1: {
-                    position: {
-                        x: -3,
-                        y: 0
-                    }
-                },
-                bone2: {
-                    position: {
-                        x: 24,
-                        y: -22
-                    }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -18,
+                    y: 0
                 }
-            }, {
-                bone1: {
-                    position: {
-                        x: -9,
-                        y: 0
-                    }
-                },
-                bone2: {
-                    position: {
-                        x: 22,
-                        y: -22
-                    }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -13,
+                    y: 0
                 }
-            }]
+            }
+        }]
     },
     {
         clothUrl: T + "woman_back/cloth2/body.png",
@@ -2243,6 +2656,60 @@ var womanBackCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "woman_back/cloth5/body.png",
+        clothPosition: {
+            x: -35,
+            y: 102
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_back/cloth6/body.png",
+        clothPosition: {
+            x: -14,
+            y: 102
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_back/cloth7/body.png",
+        clothPosition: {
+            x: -20,
+            y: 100
+        },
+        part: [
+            [T + "woman_back/cloth7/left_arm.png", 0],
+            [T + "woman_back/cloth7/right_arm.png", 0],
+            [0, 0],
+            [0, 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 16,
+                    y: 0
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -2
+                }
+            }
+        }, 0, 0]
     }
 ];
 
@@ -2278,25 +2745,19 @@ var womanRightCloths = [
     {
         clothUrl: T + "woman_right/cloth1/body.png",
         clothPosition: {
-            x: -6,
-            y: 89
+            x: -4,
+            y: 98
         },
         part: [
-            [T + "woman_right/cloth1/left_arm.png", T + "woman_right/cloth1/left_hand.png"],
-            [T + "woman_right/cloth1/right_arm.png", T + "woman_right/cloth1/right_hand.png"],
-            [T + "woman_right/cloth1/left_leg.png", T + "woman_right/cloth1/left_foot.png"],
-            [T + "woman_right/cloth1/right_leg.png", T + "woman_right/cloth1/right_foot.png"]
+            [T + "woman_right/cloth1/left_arm.png", 0],
+            [T + "woman_right/cloth1/right_arm.png", 0],
+            [T + "woman_right/cloth1/left_leg.png", 0],
+            [T + "woman_right/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
                     x: 2,
-                    y: -4
-                }
-            },
-            bone2: {
-                position: {
-                    x: -4,
                     y: -4
                 }
             }
@@ -2306,37 +2767,19 @@ var womanRightCloths = [
                     x: 0,
                     y: -4
                 }
-            },
-            bone2: {
-                position: {
-                    x: -2,
-                    y: -2
-                }
             }
         }, {
             bone1: {
                 position: {
-                    x: -5,
+                    x: -10,
                     y: -1
                 }
-            },
-            bone2: {
-                position: {
-                    x: 3,
-                    y: -20
-                }
             }
         }, {
             bone1: {
                 position: {
-                    x: -3,
+                    x: -8,
                     y: -0
-                }
-            },
-            bone2: {
-                position: {
-                    x: -5,
-                    y: -14
                 }
             }
         }]
@@ -2409,6 +2852,60 @@ var womanRightCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "woman_right/cloth5/body.png",
+        clothPosition: {
+            x: -34,
+            y: 86
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_right/cloth6/body.png",
+        clothPosition: {
+            x: -15,
+            y: 91
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_right/cloth7/body.png",
+        clothPosition: {
+            x: -20,
+            y: 87
+        },
+        part: [
+            [T + "woman_right/cloth7/left_arm.png", 0],
+            [T + "woman_right/cloth7/right_arm.png", 0],
+            [0, 0],
+            [0, 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: -2,
+                    y: -5
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: -3,
+                    y: -3
+                }
+            }
+        }, 0, 0]
     }
 ];
 
@@ -2446,25 +2943,19 @@ var womanLeftCloths = [
         clothUrl: T + "woman_left/cloth1/body.png",
         clothPosition: {
             x: -5,
-            y: 89
+            y: 99
         },
         part: [
-            [T + "woman_left/cloth1/left_arm.png", T + "woman_left/cloth1/left_hand.png"],
-            [T + "woman_left/cloth1/right_arm.png", T + "woman_left/cloth1/right_hand.png"],
-            [T + "woman_left/cloth1/left_leg.png", T + "woman_left/cloth1/left_foot.png"],
-            [T + "woman_left/cloth1/right_leg.png", T + "woman_left/cloth1/right_foot.png"]
+            [T + "woman_left/cloth1/left_arm.png", 0],
+            [T + "woman_left/cloth1/right_arm.png", 0],
+            [T + "woman_left/cloth1/left_leg.png", 0],
+            [T + "woman_left/cloth1/right_leg.png", 0]
         ],
         bones: [{
             bone1: {
                 position: {
                     x: 4,
                     y: 0
-                }
-            },
-            bone2: {
-                position: {
-                    x: 15,
-                    y: -2
                 }
             }
         }, {
@@ -2473,37 +2964,19 @@ var womanLeftCloths = [
                     x: 5,
                     y: 5
                 }
-            },
-            bone2: {
-                position: {
-                    x: 14,
-                    y: 0
-                }
             }
         }, {
             bone1: {
                 position: {
-                    x: -3,
+                    x: -10,
                     y: 14
                 }
-            },
-            bone2: {
-                position: {
-                    x: 30,
-                    y: -4
-                }
             }
         }, {
             bone1: {
                 position: {
-                    x: -3,
+                    x: -10,
                     y: 12
-                }
-            },
-            bone2: {
-                position: {
-                    x: 13,
-                    y: -3
                 }
             }
         }]
@@ -2576,6 +3049,60 @@ var womanLeftCloths = [
             [0, 0],
             [0, 0]
         ]
+    },
+    {
+        clothUrl: T + "woman_left/cloth5/body.png",
+        clothPosition: {
+            x: -33,
+            y: 102
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_left/cloth6/body.png",
+        clothPosition: {
+            x: -20,
+            y: 102
+        },
+        part: [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0]
+        ]
+    },
+    {
+        clothUrl: T + "woman_left/cloth7/body.png",
+        clothPosition: {
+            x: -21,
+            y: 88
+        },
+        part: [
+            [T + "woman_left/cloth7/left_arm.png", 0],
+            [T + "woman_left/cloth7/right_arm.png", 0],
+            [0, 0],
+            [0, 0]
+        ],
+        bones: [{
+            bone1: {
+                position: {
+                    x: 3,
+                    y: -1
+                }
+            }
+        }, {
+            bone1: {
+                position: {
+                    x: 7,
+                    y: -1
+                }
+            }
+        }, 0, 0]
     }
 ];
 
