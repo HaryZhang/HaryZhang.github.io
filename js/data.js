@@ -669,8 +669,8 @@ var manCloths = [
     {
         clothUrl: T + "man/cloth2/body.png",
         clothPosition: {
-            x: -2,
-            y: 94
+            x: -5,
+            y: 110
         },
         part: [
             [0, 0],
@@ -689,7 +689,7 @@ var manCloths = [
             }, {
                 bone1: {
                     position: {
-                        x: -15,
+                        x: -10,
                         y: 10
                     }
                 }
@@ -698,8 +698,8 @@ var manCloths = [
     {
         clothUrl: T + "man/cloth3/body.png",
         clothPosition: {
-            x: 0,
-            y: 100
+            x: -5,
+            y: 110
         },
         part: [
             [T + "man/cloth3/left_arm.png", 0],
@@ -953,8 +953,8 @@ var manBackCloths = [
     {
         clothUrl: T + "man_back/cloth2/body.png",
         clothPosition: {
-            x: 8,
-            y: 106
+            x: 1,
+            y: 110
         },
         part: [
             [0, 0],
@@ -982,7 +982,7 @@ var manBackCloths = [
     {
         clothUrl: T + "man_back/cloth3/body.png",
         clothPosition: {
-            x: 5,
+            x: 0,
             y: 110
         },
         part: [
@@ -1237,7 +1237,7 @@ var manRightCloths = [
     {
         clothUrl: T + "man_right/cloth2/body.png",
         clothPosition: {
-            x: 15,
+            x: 2,
             y: 98
         },
         part: [
@@ -1522,7 +1522,7 @@ var manLeftCloths = [
         clothUrl: T + "man_left/cloth2/body.png",
         clothPosition: {
             x: -6,
-            y: 91
+            y: 94
         },
         part: [
             [0, 0],
@@ -3053,8 +3053,8 @@ var womanLeftCloths = [
     {
         clothUrl: T + "woman_left/cloth5/body.png",
         clothPosition: {
-            x: -33,
-            y: 102
+            x: -30,
+            y: 95
         },
         part: [
             [0, 0],
@@ -3066,8 +3066,8 @@ var womanLeftCloths = [
     {
         clothUrl: T + "woman_left/cloth6/body.png",
         clothPosition: {
-            x: -20,
-            y: 102
+            x: -17,
+            y: 92
         },
         part: [
             [0, 0],
@@ -3514,7 +3514,7 @@ var womanLeftFace = [
     }, {
         position: {
             x: 10,
-            y: 39
+            y: 43
         }
     }, {
         position: {
@@ -3528,7 +3528,7 @@ var womanLeftFace = [
         }
     }, {
         position: {
-            x: 3,
+            x: 6,
             y: 40
         }
     }
