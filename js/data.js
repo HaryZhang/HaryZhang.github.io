@@ -698,8 +698,8 @@ var manCloths = [
     {
         clothUrl: T + "man/cloth3/body.png",
         clothPosition: {
-            x: -5,
-            y: 110
+            x: 0,
+            y: 108
         },
         part: [
             [T + "man/cloth3/left_arm.png", 0],
@@ -754,7 +754,7 @@ var manCloths = [
         clothUrl: T + "man/cloth5/body.png",
         clothPosition: {
             x: -2,
-            y: 109  
+            y: 110
         },
         part: [
             [T + "man/cloth5/left_arm.png", 0],
@@ -795,8 +795,8 @@ var manCloths = [
     {
         clothUrl: T + "man/cloth6/body.png",
         clothPosition: {
-            x: 0,
-            y: 110
+            x: 1,
+            y: 111
         },
         part: [
             [T + "man/cloth6/left_arm.png", 0],
@@ -983,7 +983,7 @@ var manBackCloths = [
         clothUrl: T + "man_back/cloth3/body.png",
         clothPosition: {
             x: 0,
-            y: 110
+            y: 109
         },
         part: [
             [T + "man_back/cloth3/left_arm.png", 0],
@@ -1080,7 +1080,7 @@ var manBackCloths = [
         clothUrl: T + "man_back/cloth6/body.png",
         clothPosition: {
             x: 0,
-            y: 113
+            y: 110
         },
         part: [
             [T + "man_back/cloth6/left_arm.png", 0],
@@ -1122,7 +1122,7 @@ var manBackCloths = [
         clothUrl: T + "man_back/cloth7/body.png",
         clothPosition: {
             x: -3,
-            y: 111
+            y: 110
         },
         part: [
             [T + "man_back/cloth7/left_arm.png", 0],
@@ -1761,7 +1761,7 @@ var Z = [
             bone1: {
                 position: {
                     x: 67,
-                    y: 147
+                    y: 150
                 },
                 pivot: {
                     x: 82,
@@ -1905,8 +1905,8 @@ var Z = [
             boneRotate: 0,
             bone1: {
                 position: {
-                    x: 28,
-                    y: 114
+                    x: 18,
+                    y: 115
                 },
                 pivot: {
                     x: 40,
@@ -2433,7 +2433,7 @@ var womanCloths = [
             bone1: {
                 position: {
                     x: 3,
-                    y: -5
+                    y: -8
                 }
             }
         }, {
@@ -2942,8 +2942,8 @@ var womanLeftCloths = [
     {
         clothUrl: T + "woman_left/cloth1/body.png",
         clothPosition: {
-            x: -5,
-            y: 99
+            x: -2,
+            y: 95
         },
         part: [
             [T + "woman_left/cloth1/left_arm.png", 0],
@@ -3040,7 +3040,7 @@ var womanLeftCloths = [
     {
         clothUrl: T + "woman_left/cloth4/body.png",
         clothPosition: {
-            x: -7,
+            x: -12,
             y: 93
         },
         part: [
@@ -3053,7 +3053,7 @@ var womanLeftCloths = [
     {
         clothUrl: T + "woman_left/cloth5/body.png",
         clothPosition: {
-            x: -30,
+            x: -35,
             y: 95
         },
         part: [
@@ -3229,7 +3229,7 @@ var manRightFace = [
     }, {
         position: {
             x: 35,
-            y: 38
+            y: 35
         }
     }, {
         position: {
@@ -3274,8 +3274,8 @@ for (var eo = 0; eo < 5; eo++) manRightHair[eo].url = T + "man_right/hair" + (eo
 var manLeftFace = [
     {
         position: {
-            x: 10,
-            y: 41
+            x: 12,
+            y: 38
         }
     }, {
         position: {
@@ -3284,8 +3284,8 @@ var manLeftFace = [
         }
     }, {
         position: {
-            x: 11,
-            y: 18
+            x: 10,
+            y: 11
         }
     },
     {
@@ -3295,12 +3295,12 @@ var manLeftFace = [
         }
     }, {
         position: {
-            x: 8,
+            x: 10,
             y: 34
         }
     }, {
         position: {
-            x: 11,
+            x: 16,
             y: 38
         }
     }
@@ -3340,34 +3340,34 @@ for (var eo = 0; eo < 5; eo++) manLeftHair[eo].url = T + "man_left/hair" + (eo +
 var womanFace = [
     {
         position: {
-            x: 17,
-            y: 46
+            x: 20,
+            y: 49
         }
     }, {
         position: {
-            x: 16,
-            y: 3
+            x: 21,
+            y: 5
         }
     }, {
         position: {
-            x: 16,
+            x: 19,
             y: 20
         }
     },
     {
         position: {
-            x: 16,
-            y: 44
+            x: 21,
+            y: 46
         }
     }, {
         position: {
-            x: 17,
-            y: 44
+            x: 21,
+            y: 46
         }
     }, {
         position: {
-            x: 16,
-            y: 44
+            x: 27,
+            y: 48
         }
     }
 ];
@@ -3376,27 +3376,27 @@ for (var eo = 0; eo < 6; eo++) womanFace[eo].url = T + "woman/face" + (eo + 1) +
 var womanHair = [
     {
         position: {
-            x: -12,
+            x: -8,
             y: -8
         }
     }, {
         position: {
-            x: 5,
+            x: 7,
             y: -22
         }
     }, {
         position: {
-            x: -9,
+            x: -1,
             y: -20
         }
     }, {
         position: {
-            x: -24,
+            x: -20,
             y: -14
         }
     }, {
         position: {
-            x: -15,
+            x: -10,
             y: -14
         }
     }
@@ -3444,17 +3444,17 @@ var womanRightFace = [
     }, {
         position: {
             x: 30,
-            y: 10
+            y: 6
         }
     }, {
         position: {
             x: 43,
-            y: 39
+            y: 34
         }
     }, {
         position: {
-            x: 40,
-            y: 38
+            x: 42,
+            y: 36
         }
     }, {
         position: {
@@ -3473,8 +3473,8 @@ for (var eo = 0; eo < 6; eo++) womanRightFace[eo].url = T + "woman_right/face" +
 var womanRightHair = [
     {
         position: {
-            x: -24,
-            y: -8
+            x: -25,
+            y: -5
         }
     }, {
         position: {
@@ -3503,22 +3503,22 @@ for (var eo = 0; eo < 5; eo++) womanRightHair[eo].url = T + "woman_right/hair" +
 var womanLeftFace = [
     {
         position: {
-            x: 5,
-            y: 41
+            x: 9,
+            y: 39
         }
     }, {
         position: {
-            x: 10,
+            x: 12,
             y: 0
         }
     }, {
         position: {
-            x: 10,
-            y: 43
+            x: 7,
+            y: 33
         }
     }, {
         position: {
-            x: 15,
+            x: 9,
             y: 32
         }
     }, {
@@ -3528,7 +3528,7 @@ var womanLeftFace = [
         }
     }, {
         position: {
-            x: 6,
+            x: 11,
             y: 40
         }
     }
@@ -3538,8 +3538,8 @@ for (var eo = 0; eo < 6; eo++) womanLeftFace[eo].url = T + "woman_left/face" + (
 var womanLeftHair = [
     {
         position: {
-            x: 3,
-            y: -8
+            x: 7,
+            y: -1
         }
     }, {
         position: {
@@ -3559,7 +3559,7 @@ var womanLeftHair = [
     }, {
         position: {
             x: 10,
-            y: -8
+            y: -6
         }
     }
 ];
