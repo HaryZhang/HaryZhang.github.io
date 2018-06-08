@@ -433,9 +433,10 @@ a {
 .category_box .man_cloth li .item_bg,.category_box .woman_cloth li .item_bg {
   width:100%;
   height:100%;
-  background:url(images/select/cloth/man-1.png) center 10px no-repeat;
+  background:url(images/select/cloth/man-1.png) center center no-repeat;
   transition:all linear .1s;
   -webkit-transition:all linear .1s;
+  background-size: auto 54%;
 }
 .category_box .man_cloth li .item_text,.category_box .woman_cloth li .item_text {
   width:50px;
@@ -448,7 +449,7 @@ a {
   -webkit-transition:all linear .1s;
 }
 .category_box .man_cloth li.active .item_bg,.category_box .woman_cloth li.active .item_bg {
-  background-position:center 3px;
+  background-position:center 20px;
 }
 .category_box .man_cloth li.active .item_text,.category_box .woman_cloth li.active .item_text {
   border-bottom:4px solid #ff216c;
@@ -461,6 +462,7 @@ a {
 }
 .category_box .man_cloth li:nth-child(3) .item_bg {
   background-image:url(images/select/cloth/man-3.png);
+  background-size: auto auto;
 }
 .category_box .man_cloth li:nth-child(4) .item_bg {
   background-image:url(images/select/cloth/man-4.png);
@@ -792,21 +794,28 @@ a {
 }
 .category_box .others ul li:nth-child(14) .item_bg {
   background-image:url(images/select/others/3-3.png);
+  background-size: auto 60%;
 }
 .category_box .others ul li:nth-child(15) .item_bg {
   background-image:url(images/select/others/3-4.png);
+  background-size: auto 60%;
 }
 .category_box .others ul li:nth-child(16) .item_bg {
   background-image:url(images/select/others/3-5.png);
+  width: 100px;
 }
 .category_box .others ul li:nth-child(17) .item_bg {
   background-image:url(images/select/others/4-0.png);
+  width: 100px;
+  background-size: 100% auto;
 }
 .category_box .others ul li:nth-child(18) .item_bg {
   background-image:url(images/select/others/4-1.png);
+  background-size: 89% auto;
 }
 .category_box .others ul li:nth-child(19) .item_bg {
   background-image:url(images/select/others/4-2.png);
+  background-size: auto 52%;
 }
 .category_box .others ul li:nth-child(20) .item_bg {
   background-image:url(images/select/others/4-3.png);
@@ -831,15 +840,18 @@ a {
 }
 .category_box .others ul li:nth-child(27) .item_bg {
   background-image:url(images/select/others/5-0.png);
+  background-size: auto 60%;
 }
 .category_box .others ul li:nth-child(28) .item_bg {
   background-image:url(images/select/others/5-1.png);
 }
 .category_box .others ul li:nth-child(29) .item_bg {
   background-image:url(images/select/others/5-2.png);
+  background-size: auto 38%;
 }
 .category_box .others ul li:nth-child(30) .item_bg {
   background-image:url(images/select/others/5-3.png);
+  background-size: auto 63%;
 }
 
 .category_box .flag {
