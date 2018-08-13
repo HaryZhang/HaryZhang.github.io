@@ -1,8 +1,6 @@
 (function () {
 	var TDYSDK = function () {
 		this.version = "1.0";
-		console.log(document.location.host);
-		console.log(top.location.host);
 		console.log('TDYSDK: ' + this.version);
 	}
 	TDYSDK.prototype = {
