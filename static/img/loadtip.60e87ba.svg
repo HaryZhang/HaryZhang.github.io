@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="70px" viewBox="0 0 89 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="浏览器打开引导" transform="translate(-256.000000, -18.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="箭头" transform="translate(244.000000, -6.000000)">
+                <g transform="translate(51.416972, 57.355669) rotate(32.000000) translate(-51.416972, -57.355669) translate(20.916972, 9.355669)">
+                    <path d="M50.6087485,1.95579233 C55.7530929,35.0553844 48.8400062,56.8706978 29.8694886,67.4017324 C1.41371212,83.1982843 -5.62397593,55.9794651 6.53756908,46.797032 C18.9924712,37.3931031 27.4021242,44.3999869 31.7720244,54.4727718 C36.1419245,64.5455567 33.2031023,81.1581774 26.6736477,88.4159471 C23.8784002,91.5229851 20.7479652,94.0299686 17.2823428,95.9368979" id="Path-8"></path>
+                    <polyline id="Path-9" stroke-linejoin="round" points="43.0424491 9.14957892 50.4416836 0 60.0726417 6.27825663"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

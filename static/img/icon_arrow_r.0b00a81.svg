@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_back_co2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="我的_已登录" transform="translate(-351.000000, -310.000000)" stroke="#999999">
+            <g id="#1" transform="translate(10.000000, 304.000000)">
+                <g id="icon_back_co2" transform="translate(345.000000, 12.000000) scale(-1, 1) translate(-345.000000, -12.000000) translate(337.000000, 4.000000)">
+                    <polyline id="返回" points="10.8599038 2.18181818 5.09090909 8.00404065 10.9090909 13.8181818"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

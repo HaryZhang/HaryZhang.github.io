@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="支付成功" transform="translate(-161.000000, -216.000000)">
+            <g id="支付成功icon" transform="translate(161.000000, 216.000000)">
+                <circle id="Oval-8" stroke="#7ED321" stroke-width="3" cx="27.3952164" cy="27.3952164" r="18.25"></circle>
+                <rect id="Rectangle-25" fill="#7ED321" transform="translate(23.721861, 28.755931) rotate(-45.000000) translate(-23.721861, -28.755931) " x="22.1352267" y="23.7480745" width="3.17326769" height="10.015713" rx="1.58663384"></rect>
+                <rect id="Rectangle-25-Copy" fill="#7ED321" transform="translate(30.470134, 27.470134) rotate(45.000000) translate(-30.470134, -27.470134) " x="28.8835006" y="20.2398399" width="3.17326769" height="14.4605891" rx="1.58663384"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

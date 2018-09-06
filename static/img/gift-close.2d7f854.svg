@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="39px" viewBox="0 0 26 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_关闭</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="游戏详情_弹窗" transform="translate(-293.000000, -189.000000)">
+            <g id="icon_关闭" transform="translate(293.000000, 189.000000)">
+                <path d="M8,18.2272727 L18.2272727,8" id="Path" stroke="#FFFFFF" stroke-width="1.4" fill="#6D6D6D" stroke-linecap="round"></path>
+                <circle id="Oval" stroke="#FFFFFF" cx="13" cy="13" r="12"></circle>
+                <path d="M18.2272727,18.2272727 L8,8" id="Path" stroke="#FFFFFF" stroke-width="1.4" fill="#6D6D6D" stroke-linecap="round"></path>
+                <rect id="Rectangle-6" fill="#FFFFFF" x="13" y="25" width="1" height="14"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

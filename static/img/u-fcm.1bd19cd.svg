@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_防沉迷</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="26.0179508%" y1="7.92263005%" x2="69.9796641%" y2="89.3281848%" id="linearGradient-1">
+            <stop stop-color="#B3BFCC" offset="0%"></stop>
+            <stop stop-color="#8C9DB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="我的_已登录" transform="translate(-10.000000, -475.000000)">
+            <g id="#1-copy-3" transform="translate(10.000000, 475.000000)">
+                <g id="icon_防沉迷">
+                    <circle id="Oval" fill="url(#linearGradient-1)" cx="12" cy="12" r="10"></circle>
+                    <path d="M12.0141518,5.47172537 L12.0141518,5.47172537 L12.0141518,5.47172537 C12.8181631,5.47172537 13.4699431,6.12350536 13.4699431,6.92751673 C13.4699431,6.95993892 13.46886,6.99235207 13.4666956,7.02470193 L13.0667576,13.0022308 L13.0667576,13.0022308 C13.0291887,13.5637418 12.5627665,14 12,14 L12,14 L12,14 C11.437737,14 10.9722212,13.5631454 10.9365401,13.0020156 L10.5564753,7.02503683 L10.5564753,7.02503683 C10.5052835,6.21998432 11.1164084,5.52586119 11.9214609,5.47466942 C11.9523189,5.47270722 11.9832314,5.47172537 12.0141518,5.47172537 Z" id="Rectangle-19" fill="#FFFFFF"></path>
+                    <path d="M12,17.3029925 C12.5522847,17.3029925 13,16.8552773 13,16.3029925 C13,15.7507078 12.5522847,15.3029925 12,15.3029925 C11.4477153,15.3029925 11,15.7507078 11,16.3029925 C11,16.8552773 11.4477153,17.3029925 12,17.3029925 Z" id="Oval-6" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
