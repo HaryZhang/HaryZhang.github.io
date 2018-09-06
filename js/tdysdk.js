@@ -1,7 +1,8 @@
 (function () {
-	var TDYSDK = function () {
+	var TDYSDK = function() {
 		this.version = "1.0";
 		console.log('TDYSDK: ' + this.version);
+		console.log(top);
 	}
 	TDYSDK.prototype = {
 		postData: function (data) {
